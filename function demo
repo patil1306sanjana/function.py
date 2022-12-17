@@ -8,3 +8,13 @@ def sum():
    print("sum is",s)
  
 sum()
+
+#function with parameter and without return
+
+def sum(a,b):
+   s = a + b
+   print("sum is",s)
+print("Enter 2 numbers")
+a = int(input())
+b = int(input())
+sum(a,b)
